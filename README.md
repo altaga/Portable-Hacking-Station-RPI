@@ -78,5 +78,16 @@ I recommend that you make the circuit on a breadboard PCB, as shown in the follo
     
 ## Raspberry Setup:
 
+For the configuration of this tutorial we will use the Raspberry Pi Zero W, due to its small size, low power consumption and ease of use, however it is possible to use a raspberry pi 3, but you will have to use a much more powerful power bank, besides that the size is much bigger.
+
+* Download "RASPBIAN STRETCH LITE" from https://www.raspberrypi.org/downloads/raspbian/.
+    - You can install if you want the desktop version but it is best to use the **lite** version to improve the performance of the raspberry pi zero w.
+* Flash Raspbian on the sd card as indicated on the official page. https://www.raspberrypi.org/documentation/installation/installing-images/README.md
+* Once the operating system is in the SD card, 2 disc partitions will be created in the SD card, we enter the one called "boot".
+    - Open the file called config.txt
+    - at the end of the file put the following text "enable_uart = 1" and save.
+* Download and paste the two files in the "files" folder and copy them to the "boot" partition.
+* 
+
 unfinished until october 10
 
