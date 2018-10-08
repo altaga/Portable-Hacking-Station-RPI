@@ -47,12 +47,12 @@ The first thing to do would be the module for bluetooth communication with the r
 We will do this through the UART port that has the raspberry, as shown in the following diagram.
 
 <br/>
-|<img src="http://habrastorage.org/getpro/habr/post_images/cb2/2d0/1a5/cb22d01a5de84cbaaad999919a8a04bf.jpg" width="400">|
+<img src="http://habrastorage.org/getpro/habr/post_images/cb2/2d0/1a5/cb22d01a5de84cbaaad999919a8a04bf.jpg" width="400">
 <br/>
 
 I recommend that you make the circuit on a breadboard PCB, as shown in the following 2 images, this in order that the module can be transported without cables being disconnected by movement.
 
-| Hc-06 Connection Diagram                                      | Upperface                                    | Underface                                |
+| Hc-06 Connection Diagram                                      | Underface                                    | Upperface                                |
 |-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
 |<img src="https://image.ibb.co/jU3uop/Hack.png" width="280">|<img src="https://image.ibb.co/duX4op/IMG_8265.jpg" width="280">|<img src="https://image.ibb.co/fwStg9/IMG_8264.jpg" width="280">|
     
