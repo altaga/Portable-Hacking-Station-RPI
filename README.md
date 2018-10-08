@@ -33,6 +33,7 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
 * Powerbank 5v.
 (min 2000 MAh to ensure the card can turn on at least 2 hours).
 * Any external network card, I use an AirLink101 (AWLL3028).
+
 (check if it is compatible with the Arimon-ng library of Aircrack-ng)
     ```
     https://www.aircrack-ng.org/doku.php?id=en:compatible_cards
