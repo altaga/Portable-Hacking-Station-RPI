@@ -7,7 +7,7 @@ Station to perform WiFi network audits, using Raspberry Pi Zero W and Raspberry 
 * [Bt Module](#bt-module)
 * [Raspberry Setup](#raspberry-setup)
 * [Software Setup](#software-setup)
-* [Future Rollout](#future-rollout)
+* [Make Portble](#make-portable)
 * [References](#references)
 
 ## Introduction:
@@ -49,7 +49,7 @@ Note: Check compatibility of your network card so that it is able to enter monit
 * Etcher - https://etcher.io/
 * Sd card formatter - https://www.sdcard.org/downloads/formatter_4/
 * Advnced IP Scanner - https://www.advanced-ip-scanner.com/es/
-    - for linux Angry IP Scanner https://angryip.org/ 
+    - for linux and mac Angry IP Scanner https://angryip.org/ 
 
 ## Bt Module:
 
@@ -118,7 +118,23 @@ Note: I recommend that you first do the configuration with your home network bec
 
 * Connect the SD card in the raspberry and the connection to the power.
 * Wait 3 minutes for the operating system to finish configuring.
-* 
+* Open the Advanced IP Scanner or Angry IP Scanner program and perform a full search, you can identify the Raspberry because it appears as shown at the bottom.
+<br/>
+<img src="https://image.ibb.co/mFvkw9/Scanner.png" width="500">
+<br/>
+* Once the IP is found, we open "Putty" program and put the ip in the box that says "Host Name" and press "Open" in the box below.
+* When the word "login" appears, you need write "pi" and press the enter key, for password you have to put "raspberry" and press enter.
+* Since we are in the linux command console, we need to put the following commands (This process may take a long time depending on the internet connection).
+    - `sudo apt-get -y install libssl-dev libnl-3-dev libnl-genl-3-dev ethtool`
+    - `sudo apt-get install aircrack-ng`
+    - `sudo apt-get install wifite`
+* Once we have finished this, we can start to make tests with the raspberry.
+
+Note: DONT DO "sudo apt-get update" or "sudo apt-get upgrade" as this may corrupt the operating system and ruin the entire previous process.
+    
+## Make Portable
+
+
 
 
 
