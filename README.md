@@ -27,9 +27,9 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
 * PCB Breadboard.
 * Female Header.
 * USB cable to MicroUSB.
-* **Smartphone.**
-- Android supports Bt serial and WiFi ssh
-- iPhone supports only WiFi ssh
+* Smartphone.
+    - Android supports Bt serial and WiFi ssh
+    - iPhone supports only WiFi ssh
 * Powerbank 5v.
 (min 2000 MAh to ensure the card can turn on at least 2 hours).
 * Any external network card, I use an AirLink101 (AWLL3028).
