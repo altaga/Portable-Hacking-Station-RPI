@@ -4,7 +4,8 @@ Station to perform WiFi network audits, using Raspberry Pi Zero W and Raspberry 
 # Table of contents
 * [Introduction](#introduction)
 * [Materials](#materials)
-* [Our Solution](#our-solution)
+* [Bt Module](#bt-module)
+* [Raspberry Setup](#raspberry-setup)
 * [Where should I start?](#where-should-i-start)
 * [Future Rollout](#future-rollout)
 * [References](#references)
@@ -26,14 +27,22 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
 * PCB Breadboard.
 * Female Header.
 * USB cable to MicroUSB.
+* Smartphone.
+- Android supports Bt serial and WiFi ssh
+- iPhone supports only WiFi ssh
 * Powerbank 5v.
 (min 2000 MAh to ensure the card can turn on at least 2 hours).
 * Any external network card, I use an AirLink101 (AWLL3028).
 (check if it is compatible with the Arimon-ng library of Aircrack-ng)
     ```
-    https://www.aircrack-ng.org/doku.php?id=en:compatible_cards)
+    https://www.aircrack-ng.org/doku.php?id=en:compatible_cards
     ```
     
 Note: Check compatibility of your network card so that it is able to enter monitor mode, if it is not possible you can not continue with the tutorial.
+
+## Bt Module:
+
+
+
 
 
