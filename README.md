@@ -119,9 +119,11 @@ Note: I recommend that you first do the configuration with your home network bec
 * Connect the SD card in the raspberry and the connection to the power.
 * Wait 3 minutes for the operating system to finish configuring.
 * Open the Advanced IP Scanner or Angry IP Scanner program and perform a full search, you can identify the Raspberry because it appears as shown at the bottom.
+
 <br/>
 <img src="https://image.ibb.co/mFvkw9/Scanner.png" width="500">
 <br/>
+
 * Once the IP is found, we open "Putty" program and put the ip in the box that says "Host Name" and press "Open" in the box below.
 * When the word "login" appears, you need write "pi" and press the enter key, for password you have to put "raspberry" and press enter.
 * Since we are in the linux command console, we need to put the following commands (This process may take a long time depending on the internet connection).
