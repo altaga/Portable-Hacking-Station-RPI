@@ -6,7 +6,7 @@ Station to perform WiFi network audits, using Raspberry Pi Zero W and Raspberry 
 * [Materials](#materials)
 * [Bt Module](#bt-module)
 * [Raspberry Setup](#raspberry-setup)
-* [Where should I start?](#where-should-i-start)
+* [Software Setup](#software-setup)
 * [Future Rollout](#future-rollout)
 * [References](#references)
 
@@ -85,9 +85,28 @@ For the configuration of this tutorial we will use the Raspberry Pi Zero W, due 
 * Flash Raspbian on the sd card as indicated on the official page. https://www.raspberrypi.org/documentation/installation/installing-images/README.md
 * Once the operating system is in the SD card, 2 disc partitions will be created in the SD card, we enter the one called "boot".
     - Open the file called config.txt
-    - at the end of the file put the following text "enable_uart = 1" and save.
-* Download the two files in the "files" folder and copy them to the "boot" partition.
-* 
+    - At the end of the file put the following text "enable_uart = 1" and save.
+* Download the two files in the "files" folder and copy them to the "boot" partition, .
+* Since both files are in "boot", open the file "wpa_supplicant.conf" and replace the ssid and psk (password), with your network name and password without removing the quotes.(Below I show the example.)
+
+`
+country=us
+update_config=1
+ctrl_interface=/var/run/wpa_supplicant
+
+network={
+ scan_ssid=1
+ ssid="networkname"
+ psk="password"
+}
+`
+* We do this to activate serial communication for the bluetooth module and communication via SSH (iPhone compatibility). However, it must be clarified that if the station is used through SSH, we must configure the wpa_supplicant.conf configuration with the shared network of the smartphone.
+
+Note: I recommend that you first do the configuration with your home network because you have to download files.
+
+## Software Setup
+
+
 
 unfinished until october 10
 
