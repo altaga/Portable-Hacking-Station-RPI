@@ -64,8 +64,7 @@ The first thing to do would be the module for bluetooth communication with the r
     - AT+BAUD8 (115200 Baud Rate)
     -- Answer: OK
 
-
-We will do this through the UART port that has the raspberry, as shown in the following diagram.
+Since we finished these configuration, we will do this through the UART port that has the raspberry, as shown in the following diagram.
 
 <br/>
 <img src="http://habrastorage.org/getpro/habr/post_images/cb2/2d0/1a5/cb22d01a5de84cbaaad999919a8a04bf.jpg" width="800">
