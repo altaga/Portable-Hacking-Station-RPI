@@ -56,13 +56,13 @@ The first thing to do would be the module for bluetooth communication with the r
 * Once we connect to the interface at 9600 baud (Default Baud Rate), we have to send the following commands to the bluetooth, all commands are sent in uppercase and without NL or CR.
 
     - AT (to confirm that the module is receiving the commands.)
-    -- Answer: OK
+        - Answer: OK
     - AT+NAMEdevicename (to confirm that the module is receiving the commands.)
-    -- Answer: 	OKsetname
+        - Answer: OKsetname
     - AT+PINyourpin
-    -- OKSetpin
+        - Answer: OKSetpin
     - AT+BAUD8 (115200 Baud Rate)
-    -- Answer: OK
+        - Answer: OK115200
 
 Since we finished these configuration, we will do this through the UART port that has the raspberry, as shown in the following diagram.
 
