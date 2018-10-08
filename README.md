@@ -27,6 +27,7 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
 * PCB Breadboard.
 * Female Header.
 * USB cable to MicroUSB.
+* Arduino or TTL serial interface
 * Smartphone.
     - Android supports Bt serial and WiFi ssh.
     - iPhone supports only WiFi ssh.
@@ -42,7 +43,27 @@ Note: Check compatibility of your network card so that it is able to enter monit
 
 ## Bt Module:
 
-The first thing to do would be the module for bluetooth communication with the raspberry.
+The first thing to do would be the module for bluetooth communication with the raspberry, for this we must first configure the name and baud rate of the bluetooth module to 115200 baud, since the raspberry uses this transmission speed.
+
+* We connect the serial ttl to the module Rx to Tx(Green), Tx to Rx(White), Vcc to Vcc(Red) and GND to GND (Black).
+
+<img src="https://image.ibb.co/heMdg9/BT.png" width="800">
+
+* Once connected we open the serial monitor that we have installed for example Putty (https://www.putty.org/).
+
+<img src="https://image.ibb.co/bwzsPU/Captura_de_pantalla_de_2018_10_08_02_38_40.png" width="800">
+
+* Once we connect to the interface at 9600 baud (Default Baud Rate), we have to send the following commands to the bluetooth, all commands are sent in uppercase and without NL or CR.
+
+    - AT (to confirm that the module is receiving the commands.)
+    -- Answer: OK
+    - AT+NAMEdevicename (to confirm that the module is receiving the commands.)
+    -- Answer: 	OKsetname
+    - AT+PINyourpin
+    -- OKSetpin
+    - AT+BAUD8 (115200 Baud Rate)
+    -- Answer: OK
+
 
 We will do this through the UART port that has the raspberry, as shown in the following diagram.
 
@@ -56,7 +77,7 @@ I recommend that you make the circuit on a breadboard PCB, as shown in the follo
 |-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
 |<img src="https://image.ibb.co/jU3uop/Hack.png" width="280">|<img src="https://image.ibb.co/duX4op/IMG_8265.jpg" width="280">|<img src="https://image.ibb.co/fwStg9/IMG_8264.jpg" width="280">|
     
-
+## Raspberry Setup:
 
 
 
