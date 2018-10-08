@@ -78,5 +78,5 @@ I recommend that you make the circuit on a breadboard PCB, as shown in the follo
     
 ## Raspberry Setup:
 
-
+unfinished until october 10
 
