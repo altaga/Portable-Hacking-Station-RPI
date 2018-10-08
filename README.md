@@ -16,7 +16,7 @@ In today's world, computer security is one of the main concerns of people and co
 
 So it occurred to me that it would be incredible to be able to perform security tests of wireless networks through a simple system such as a raspberry, however one of the great disadvantages of these is the need to use display systems such as HDMI screens and keyboards to insert the commands.
 
-In this case the project explains how to make a system based on a Raspberry Pi Zero W with a bluetooth serial interface to a cell phone, so that it is possible to write the commands on the console using the cell phone.
+In this case the project explains how to make a system based on a Raspberry Pi Zero W with a Bluetooth Serial or WiFi SSH to a Smartphone, so that it is possible to write the commands on the console using the Smartphone.
 
 ## Materials:
 
@@ -28,8 +28,8 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
 * Female Header.
 * USB cable to MicroUSB.
 * Smartphone.
-    - Android supports Bt serial and WiFi ssh
-    - iPhone supports only WiFi ssh
+    - Android supports Bt serial and WiFi ssh.
+    - iPhone supports only WiFi ssh.
 * Powerbank 5v.
 (min 2000 MAh to ensure the card can turn on at least 2 hours).
 * Any external network card, I use an AirLink101 (AWLL3028).
