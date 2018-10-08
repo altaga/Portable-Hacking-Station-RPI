@@ -36,15 +36,33 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
 
 (check if it is compatible with the Arimon-ng library of Aircrack-ng)
 
-    ```
     https://www.aircrack-ng.org/doku.php?id=en:compatible_cards
-    ```
     
 Note: Check compatibility of your network card so that it is able to enter monitor mode, if it is not possible you can not continue with the tutorial.
 
 ## Bt Module:
 
+The first thing to do would be the module for bluetooth communication with the raspberry.
 
+We will do this through the UART port that has the raspberry, as shown in the following diagram.
+
+<br/>
+![Diagram01](http://habrastorage.org/getpro/habr/post_images/cb2/2d0/1a5/cb22d01a5de84cbaaad999919a8a04bf.jpg)
+<br/>
+
+I recommend that you make the circuit on a breadboard PCB, as shown in the following 2 images, this in order that the module can be transported without cables being disconnected by movement.
+
+<br/>
+![Diagram02](https://image.ibb.co/jU3uop/Hack.png)
+<br/>
+
+<br/>
+![Diagram03](https://image.ibb.co/duX4op/IMG_8265.jpg)
+<br/>
+
+<br/>
+![Diagram04](https://image.ibb.co/fwStg9/IMG_8264.jpg)
+<br/>
 
 
 
