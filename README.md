@@ -27,7 +27,7 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
 * PCB Breadboard.
 * Female Header.
 * USB cable to MicroUSB.
-* **Smartphone.
+* **Smartphone.**
 - Android supports Bt serial and WiFi ssh
 - iPhone supports only WiFi ssh
 * Powerbank 5v.
