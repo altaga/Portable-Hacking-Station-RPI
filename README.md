@@ -99,15 +99,16 @@ For the configuration of this tutorial we will use the Raspberry Pi Zero W, due 
 * Download the two files in the "files" folder and copy them to the "boot" partition, .
 * Since both files are in "boot", open the file "wpa_supplicant.conf" and replace the ssid and psk (password), with your network name and password without removing the quotes.(Below I show the example.)
 
-country=us <br/>
-update_config=1 <br/>
-ctrl_interface=/var/run/wpa_supplicant  <br/>
+        country=us <br/>
+        update_config=1 <br/>
+        ctrl_interface=/var/run/wpa_supplicant  <br/>
 
-network={  <br/>
- scan_ssid=1 <br/>
- ssid="networkname" <br/>
- psk="password" <br/>
-} <br/>
+        network= <br/>
+        {  <br/>
+         scan_ssid=1 <br/>
+         ssid="networkname" <br/>
+         psk="password" <br/>
+        } <br/>
 
 * We do this to activate serial communication for the bluetooth module and communication via SSH (iPhone compatibility). However, it must be clarified that if the station is used through SSH, we must configure the wpa_supplicant.conf configuration with the shared network of the smartphone.
 
