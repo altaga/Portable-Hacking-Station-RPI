@@ -86,7 +86,7 @@ For the configuration of this tutorial we will use the Raspberry Pi Zero W, due 
 * Once the operating system is in the SD card, 2 disc partitions will be created in the SD card, we enter the one called "boot".
     - Open the file called config.txt
     - at the end of the file put the following text "enable_uart = 1" and save.
-* Download and paste the two files in the "files" folder and copy them to the "boot" partition.
+* Download the two files in the "files" folder and copy them to the "boot" partition.
 * 
 
 unfinished until october 10
