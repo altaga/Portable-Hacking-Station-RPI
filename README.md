@@ -20,6 +20,8 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
 
 ## Materials:
 
+**Hardware:**
+
 * Raspberry Pi Zero W.
 * Sd Card (min 8 Gb).
 * Bluetooth module HC-06 (or similar).
@@ -40,6 +42,14 @@ In this case the project explains how to make a system based on a Raspberry Pi Z
     https://www.aircrack-ng.org/doku.php?id=en:compatible_cards
     
 Note: Check compatibility of your network card so that it is able to enter monitor mode, if it is not possible you can not continue with the tutorial.
+
+**Software:**
+
+* Putty - https://www.putty.org/
+* Etcher - https://etcher.io/
+* Sd card formatter - https://www.sdcard.org/downloads/formatter_4/
+* Advnced IP Scanner - https://www.advanced-ip-scanner.com/es/
+    - for linux Angry IP Scanner https://angryip.org/ 
 
 ## Bt Module:
 
@@ -105,6 +115,10 @@ network={
 Note: I recommend that you first do the configuration with your home network because you have to download files.
 
 ## Software Setup
+
+* Connect the SD card in the raspberry and the connection to the power.
+* Wait 3 minutes for the operating system to finish configuring.
+* 
 
 
 
