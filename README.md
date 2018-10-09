@@ -139,6 +139,10 @@ Note: DONT DO "sudo apt-get update" or "sudo apt-get upgrade" as this may corrup
     
 ## Make Portable
 
+<br/>
+<img src="https://image.ibb.co/eyzFeU/IMG_8284_1.jpg" width="500">
+<br/>
+
 * Connect all the hardware:
     - Raspberry
     - Network card
@@ -152,8 +156,9 @@ Note: DONT DO "sudo apt-get update" or "sudo apt-get upgrade" as this may corrup
 * Then we write "raspberry" and press "Send".
 * You will notice that the linux command console appears.
 
+
 <br/>
-<img src="https://image.ibb.co/mFvkw9/Scanner.png" width="500">
+<img src="https://image.ibb.co/jOqz69/IMG_8285_1.jpg" width="500">
 <br/>
 
 If all the previous steps were done correctly, CONGRATULATIONS you already have your own portable station to audit wifi networks!
