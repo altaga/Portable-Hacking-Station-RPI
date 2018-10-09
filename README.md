@@ -166,7 +166,14 @@ If all the previous steps were done correctly, CONGRATULATIONS you already have 
 
 ## SSH Setup (Optional)
 
-
+* At this point we have activated the ssh on the raspberry, now we will use that configuration to make a connection from the mobile data of the cell phone.
+* First we will have to configure the "wpa_supplicant.conf" of the raspberry for the ssid and the key that we have in our "personal hotspot".
+* There are several ways to find the IP of the raspberry at this point this only has to be done once.
+    - Option 1: Since the "wpa_supplicant.conf" file is modified, we will connect from the pc to our hotspot and analyze the cellular network in such a way that we find the IP of the raspberry.
+    - Option 2: We connect the BT terminal from an Android device and type "hostname -I" to find the IP.
+    - Option 3: We connect the Raspberry to a screen, once it opens the terminal, we type "hostname -I" and it gives us the IP.
+    - Option 4: We connect the USB TTL that we use to configure the bluetooth to the raspberry, we initiate session typing "pi", "raspberry" and once in the terminal of linux put "hostname -I" to obtain the IP.
+* Since we have the IP, we enter MobileSSH or WebSSH as the case may be and we initiate session in the linux terminal.
 
 ## References
 
