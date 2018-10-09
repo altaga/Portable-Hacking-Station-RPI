@@ -8,7 +8,7 @@ Station to perform WiFi network audits, using Raspberry Pi Zero W and Raspberry 
 * [Raspberry Setup](#raspberry-setup)
 * [Software Setup](#software-setup)
 * [Make Portble](#make-portable)
-* [SSH Setup (Optional)](#ssh-setup-(optional))
+* [SSH Setup Optional](#ssh-setup-optional)
 * [References](#references)
 
 ## Introduction:
