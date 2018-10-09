@@ -45,6 +45,9 @@ Note: Check compatibility of your network card so that it is able to enter monit
 
 **Software:**
 
+* Bluetooth Terminal (Android)
+* Mobile SSH (Android)
+* WebSSH (iPhone)
 * Putty - https://www.putty.org/
 * Etcher - https://etcher.io/
 * Sd card formatter - https://www.sdcard.org/downloads/formatter_4/
@@ -136,10 +139,24 @@ Note: DONT DO "sudo apt-get update" or "sudo apt-get upgrade" as this may corrup
     
 ## Make Portable
 
+* Connect all the hardware:
+    - Raspberry
+    - Network card
+    - Bluetooth Module.
+* And after that connects the raspberry to the power bank.
+* Once this is done it configures the connection to the bluetooth module from the bluetooth configuration of each cell phone (only valid in Android).
+* Once the configuration is done, open the Bluetooth Terminal app and elect the points in the upper right corner, press the "Setup" option, select the option "Append newline(\r\n)", press "save".
+* Select the points in the upper right corner, press the option "Connect a device - Secure" and select the device.
+* Note: the module may require several attempts to connect, keep trying if it does not connect.
+* Since I connect, we will type "pi" and then press "Send".
+* Then we write "raspberry" and press "Send".
+* You will notice that the linux command console appears.
+
+<br/>
+<img src="https://image.ibb.co/mFvkw9/Scanner.png" width="500">
+<br/>
+
+If all the previous steps were done correctly, CONGRATULATIONS you already have your own portable station to audit wifi networks!
 
 
-
-
-
-unfinished until october 10
 
