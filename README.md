@@ -52,7 +52,7 @@ Note: Check compatibility of your network card so that it is able to enter monit
 * Putty - https://www.putty.org/
 * Etcher - https://etcher.io/
 * Sd card formatter - https://www.sdcard.org/downloads/formatter_4/
-* Advnced IP Scanner - https://www.advanced-ip-scanner.com/es/
+* Advanced IP Scanner - https://www.advanced-ip-scanner.com/es/
     - for linux and mac Angry IP Scanner https://angryip.org/ 
 
 ## Bt Module:
