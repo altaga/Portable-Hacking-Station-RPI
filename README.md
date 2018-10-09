@@ -163,5 +163,16 @@ Note: DONT DO "sudo apt-get update" or "sudo apt-get upgrade" as this may corrup
 
 If all the previous steps were done correctly, CONGRATULATIONS you already have your own portable station to audit wifi networks!
 
+## SSH Setup (Optional)
+
+
+
+## References
+
+* https://kamilslab.com/2017/04/08/how-to-install-wifite-on-the-raspberry-pi/
+* https://www.raspberrypi.org
+* https://www.kali.org/
+* https://www.instructables.com/id/AT-command-mode-of-HC-05-Bluetooth-module/
+
 
 
