@@ -184,6 +184,8 @@ An example of the device running with the iPhone's mobile hotspot and running Wi
 Video: Click on the image
 [![Demo Portable Hacking Station RPI Zero W (Like Watch Dogs)](https://images2.alphacoders.com/562/562121.png)](https://youtu.be/GYoLvldvk-s)
 
+Sorry github does not allow embed videos.
+
 ## References
 
 * https://kamilslab.com/2017/04/08/how-to-install-wifite-on-the-raspberry-pi/
