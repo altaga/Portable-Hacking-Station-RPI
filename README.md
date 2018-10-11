@@ -3,7 +3,7 @@ Station to perform WiFi network audits, using Raspberry Pi Zero W and Raspberry 
 
 <img src="https://hackster.imgix.net/uploads/attachments/612935/wpid-watch_dogs-e3-5_aVW4IYDttS.jpg?auto=compress%2Cformat&w=1280&h=960&fit=max" width="800">
 
-Always use technology for charity, if you are a black hat or gray hat hacker please abstain at this point ......... or at least leave your star to make me feel less guilty XP.
+Always use technology for improve the world, if you are a black hat or gray hat hacker please abstain at this point ......... or at least leave your star to make me feel less guilty XP.
 
 # Table of contents
 * [Introduction](#introduction)
