@@ -181,7 +181,8 @@ If all the previous steps were done correctly, CONGRATULATIONS you already have 
 
 An example of the device running with the iPhone's mobile hotspot and running Wifite on an SSH console.
 
-[![Demo Portable Hacking Station RPI Zero W (Like Watch Dogs)](https://steamcdn-a.akamaihd.net/steam/apps/243470/header.jpg?t=1537808700)](https://youtu.be/GYoLvldvk-s)
+Video: Click on the image
+[![Demo Portable Hacking Station RPI Zero W (Like Watch Dogs)](https://images2.alphacoders.com/562/562121.png)](https://youtu.be/GYoLvldvk-s)
 
 ## References
 
