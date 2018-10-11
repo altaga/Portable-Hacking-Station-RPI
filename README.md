@@ -1,6 +1,10 @@
 # Portable Hacking Station RPI
 Station to perform WiFi network audits, using Raspberry Pi Zero W and Raspberry Pi 3, with connection from the BT or Mobile Data cell phone.
 
+<img src="https://hackster.imgix.net/uploads/attachments/612935/wpid-watch_dogs-e3-5_aVW4IYDttS.jpg?auto=compress%2Cformat&w=1280&h=960&fit=max" width="800">
+
+Always use technology for charity, if you are a black hat or gray hat hacker please abstain at this point ......... or at least leave your star to make me feel less guilty XP.
+
 # Table of contents
 * [Introduction](#introduction)
 * [Materials](#materials)
@@ -174,6 +178,10 @@ If all the previous steps were done correctly, CONGRATULATIONS you already have 
     - Option 3: We connect the Raspberry to a screen, once it opens the terminal, we type "hostname -I" and it gives us the IP.
     - Option 4: We connect the USB TTL that we use to configure the bluetooth to the raspberry, we initiate session typing "pi", "raspberry" and once in the terminal of linux put "hostname -I" to obtain the IP.
 * Since we have the IP, we enter MobileSSH or WebSSH as the case may be and we initiate session in the linux terminal.
+
+An example of the device running with the iPhone's mobile hotspot and running Wifite on an SSH console.
+
+[![Demo Portable Hacking Station RPI Zero W (Like Watch Dogs)](https://steamcdn-a.akamaihd.net/steam/apps/243470/header.jpg?t=1537808700)](https://youtu.be/GYoLvldvk-s)
 
 ## References
 
