@@ -1,5 +1,5 @@
 # Portable Hacking Station RPI
-Station to perform WiFi network audits, using Raspberry Pi Zero W and Raspberry Pi 3, with connection from the BT or Mobile Data cell phone.
+Station to perform WiFi network audits, using Raspberry Pi Zero W or Raspberry Pi 3, with connection from the BT or Mobile Data cell phone.
 
 <img src="https://hackster.imgix.net/uploads/attachments/612935/wpid-watch_dogs-e3-5_aVW4IYDttS.jpg?auto=compress%2Cformat&w=1280&h=960&fit=max" width="800">
 
